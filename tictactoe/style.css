@@ -1,0 +1,21 @@
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    
+}
+
+.board-container div {
+    height:50px;
+    width:50px;
+    border: 1px solid black;
+    gap: 0;
+
+}
+
+.board-container :nth-child(even){
+    background: red;
+}
+
+.board-container :nth-child(odd){
+    background: blue;
+}
